@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture Hall People Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lecture Hall People Counter</h1>
+    <div class="doors">
+        <div class="door">
+            <h2>Door 1</h2>
+            <button onclick="enter(1)">Enter</button>
+            <button onclick="exit(1)">Exit</button>
+        </div>
+        <div class="door">
+            <h2>Door 2</h2>
+            <button onclick="enter(2)">Enter</button>
+            <button onclick="exit(2)">Exit</button>
+        </div>
+        <div class="door">
+            <h2>Door 3</h2>
+            <button onclick="enter(3)">Enter</button>
+            <button onclick="exit(3)">Exit</button>
+        </div>
+    </div>
+
+    <h2 id="count">Total People: 0</h2>
+    <div id="log"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
